@@ -14,4 +14,9 @@ public class MathController {
 
         return "layout";
     }
+
+    @GetMapping("/")
+    public String home() {
+        return "layout";
+    }
 }
