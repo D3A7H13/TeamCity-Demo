@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @Controller
 public class MathController {
 
-    @GetMapping("/add/{firstOperand}/{secondOperand}")
+    @GetMapping("/{firstOperand}/add/{secondOperand}")
     public String add(@PathVariable Long firstOperand, @PathVariable Long secondOperand, Model model) {
         model.addAttribute("result", firstOperand + secondOperand);
 
@@ -17,6 +17,13 @@ public class MathController {
 
     @GetMapping("/")
     public String home() {
+        return "layout";
+    }
+
+    @GetMapping("/{first}/mul/{second}")
+    public String mul(@PathVariable Long first, @PathVariable Long second, Model model) {
+        model.addAttribute("result", first * second);
+
         return "layout";
     }
 }
