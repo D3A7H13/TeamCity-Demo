@@ -34,4 +34,12 @@ public class HomeControllerTests {
                 .andExpect(view().name("layout"))
                 .andExpect(model().attribute("result", is(21L)));
     }
+
+    @Test
+    public void divMethod_withValidParams_shouldReturnCorrectValue() throws Exception {
+        this.mockMvc.perform(get("/30/div/6"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("layout"))
+                .andExpect(model().attribute("result", is(5L)));
+    }
 }

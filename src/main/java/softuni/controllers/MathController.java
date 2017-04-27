@@ -29,7 +29,7 @@ public class MathController {
 
     @GetMapping("/{first}/div/{second}")
     public String div(@PathVariable Long first, @PathVariable Long second, Model model){
-        model.addAttribute("result", first/second);
+        model.addAttribute("result", first % second);
 
         return "layout";
     }

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="061cb38e-9d61-4d9e-9928-842956f16623" name="Default" comment="Adding multiply method">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/softuni/controllers/MathController.java" afterPath="$PROJECT_DIR$/src/main/java/softuni/controllers/MathController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/softuni/controllers/HomeControllerTests.java" afterPath="$PROJECT_DIR$/src/test/java/softuni/controllers/HomeControllerTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,21 +30,20 @@
       <file leaf-file-name="ExampleIntegrationTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/softuni/integration/ExampleIntegrationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
+            <state relative-caret-position="627">
               <caret line="94" column="5" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="94" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1493300807976" expanded="true" signature="1486:3394" ph="//..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeControllerTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeControllerTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/softuni/controllers/HomeControllerTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+            <state relative-caret-position="778">
+              <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MathController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MathController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/softuni/controllers/MathController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="502">
+              <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/softuni/TeamcityApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/softuni/integration/ExampleIntegrationTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/softuni/controllers/HomeControllerTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/softuni/controllers/MathController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/softuni/controllers/HomeControllerTests.java" />
       </list>
     </option>
   </component>
@@ -1411,32 +1411,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/softuni/controllers/MathController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="31" column="45" lean-forward="false" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softuni/integration/ExampleIntegrationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
+        <state relative-caret-position="627">
           <caret line="94" column="5" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1493300807976" expanded="true" signature="1486:3394" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/softuni/controllers/HomeControllerTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="34" column="60" lean-forward="false" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        <state relative-caret-position="778">
+          <caret line="42" column="59" lean-forward="false" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/softuni/controllers/MathController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
