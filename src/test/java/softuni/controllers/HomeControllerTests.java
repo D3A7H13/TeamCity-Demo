@@ -26,4 +26,12 @@ public class HomeControllerTests {
                 .andExpect(view().name("layout"))
                 .andExpect(model().attribute("result", is(10L)));
     }
+
+    @Test
+    public void mulMethod_withValidParams_shouldReturnCorrectValue() throws Exception {
+        this.mockMvc.perform(get("/3/mul/7"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("layout"))
+                .andExpect(model().attribute("result", is(21L)));
+    }
 }
