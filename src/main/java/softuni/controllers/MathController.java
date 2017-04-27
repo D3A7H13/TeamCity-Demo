@@ -26,4 +26,10 @@ public class MathController {
 
         return "layout";
     }
+
+    public String div(@PathVariable Long first, @PathVariable Long second, Model model){
+        model.addAttribute("result", first/second);
+
+        return "layout";
+    }
 }
